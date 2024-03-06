@@ -1,0 +1,33 @@
+ion-content {
+    --ion-background-color: #f5f5f5; /* Fondo gris claro */
+  }
+  
+  ion-label {
+    color: #333; /* Texto negro */
+  }
+  
+  .input-field {
+    border: salmon #d78b48; /* Borde naranja claro */
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+  }
+  
+  .login-container {
+    text-align: center;
+    padding: 20px;
+  
+    ion-img {
+      max-width: 150px;
+      margin: 20px auto;
+    }
+  
+    .login-button {
+      --ion-background-color: #8e44ad; /* Morado claro */
+      --ion-text-color: #fff; /* Texto blanco */
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+  }
+  

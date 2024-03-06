@@ -1,16 +1,13 @@
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-header collapse="condense">
+  <ion-toolbar>
+    <ion-title size="large">Blank</ion-title>
+  </ion-toolbar>
+</ion-header>
 
+<ion-content [fullscreen]="true" class="ion-padding">
   <div class="container">
     <div class="logo-container">
-      <ion-img
-        src="https://cdn-icons-png.flaticon.com/512/1024/1024812.png"
-        alt="Cuentas Claras Logo"
-      ></ion-img>
+      <ion-img src="https://cdn-icons-png.flaticon.com/512/1024/1024812.png" alt="Cuentas Claras Logo"></ion-img>
 
       <ion-text color="primary">
         <h1><b>Cuentas <br> Claras</b></h1>
@@ -19,7 +16,7 @@
     </div>
 
     <div class="buttons-container">
-      <ion-button class="login-button">Iniciar sesión</ion-button>
+      <ion-button class="login-button" (click)="irAInicioSesion()">Iniciar sesión</ion-button>
       <ion-button class="signup-button">Registrarse</ion-button>
     </div>
   </div>

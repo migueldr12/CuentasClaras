@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Iniciar Sesión</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="login-container">
+    <ion-img
+      src="https://cdn-icons-png.flaticon.com/512/1024/1024812.png"
+      alt="Cuentas Claras Logo"
+    ></ion-img>
+
+    <ion-label>Email</ion-label>
+    <ion-input type="text" [(ngModel)]="email" class="input-field"></ion-input>
+
+    <ion-label>Contraseña</ion-label>
+    <ion-input type="password" [(ngModel)]="password" class="input-field"></ion-input>
+
+    <ion-button class="login-button" (click)="login()">Iniciar sesión</ion-button>
+  </div>
+</ion-content>
