@@ -1,11 +1,3 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
@@ -13,8 +5,27 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="container">
+    <div class="logo-container">
+      <ion-img
+        src="https://cdn-icons-png.flaticon.com/512/1024/1024812.png"
+        alt="Cuentas Claras Logo"
+      ></ion-img>
+
+      <ion-text color="primary">
+        <h1>
+          <b
+            >Cuentas <br />
+            Claras</b
+          >
+        </h1>
+        <p>Facturación y asesorías contables</p>
+      </ion-text>
+    </div>
+
+    <div class="buttons-container">
+      <ion-button class="login-button">Iniciar sesión</ion-button>
+      <ion-button class="signup-button">Registrarse</ion-button>
+    </div>
   </div>
 </ion-content>

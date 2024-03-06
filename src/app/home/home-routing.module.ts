@@ -6,11 +6,18 @@ const routes: Routes = [
   {
     path: '',
     component: HomePage,
-  }
+  },
+  {
+    path: 'nuevo-usuario',
+    loadChildren: () =>
+      import('./nuevo-usuario/nuevo-usuario.module').then(
+        (m) => m.NuevoUsuarioPageModule
+      ),
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class HomePageRoutingModule {}
