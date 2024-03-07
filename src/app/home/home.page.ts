@@ -1,6 +1,4 @@
-// home.page.ts
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -9,9 +7,6 @@ import { Router } from '@angular/router';
 })
 export class HomePage {
 
-  constructor(private router: Router) {}
+  constructor() {}
 
-  irAInicioSesion() {
-    this.router.navigate(['/login']);
-  }
 }
