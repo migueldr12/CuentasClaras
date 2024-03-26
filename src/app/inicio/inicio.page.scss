@@ -8,3 +8,56 @@ ion-card-content {
   align-items: center;
   height: 100%;
 }
+
+* {
+  font-family: "DM Sans";
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+ion-content {
+  --ion-background-color: #22263e; /* Fondo gris claro */
+}
+
+ion-card, ion-card-title {
+  background-color: aliceblue;
+  color: #22263e;
+}
+
+ion-card-title {
+  font-size: 1.7em;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+ion-button {
+  font-family: 'Poppins';
+  width: 100%;
+  height: 3rem;
+  margin: 0.5rem;
+  --border-radius: 1rem;
+}
+
+.contacto-button {
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

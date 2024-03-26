@@ -19,7 +19,7 @@ ion-content {
 }
 
 ion-input {
-  width: 100%;
+  width: 70%;
   background-color: #4b4e5c;
 }
 
@@ -29,7 +29,7 @@ ion-label {
   margin-bottom: 0.5em;
   font-size: 0.8em;
   text-align: start;
-  width: 100%; /* Texto negro */
+  width: 70%; /* Texto negro */
 }
 
 .input-field {
@@ -46,7 +46,7 @@ ion-label {
 
 ion-button {
   font-family: 'Poppins';
-  width: 100%;
+  width: 70%;
   height: 3rem;
   margin: 0.5rem;
   --border-radius: 1rem;

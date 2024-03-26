@@ -27,6 +27,10 @@ const routes: Routes = [
     loadChildren: () =>
       import('./home/nuevo-usuario/nuevo-usuario.module').then((m) => m.NuevoUsuarioPageModule),
   },
+  {
+    path: 'contacto-contador',
+    loadChildren: () => import ('./inicio/contacto-contador/contacto-contador.module').then( m => m.ContactoContadorPageModule)
+  },
 ];
 
 @NgModule({
