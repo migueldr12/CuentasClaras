@@ -1,3 +1,4 @@
+
 ion-card {
   height: 75vh;
 }
@@ -11,6 +12,7 @@ ion-card-content {
 
 * {
   font-family: "DM Sans";
+  width: 100%;
 }
 
 .login-container {
@@ -52,12 +54,19 @@ ion-button {
   --border-radius: 1rem;
 }
 
-.contacto-button {
-}
-
 .button-container {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 1.8rem;
 }
 

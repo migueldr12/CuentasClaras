@@ -8,8 +8,8 @@ const routes: Routes = [
     path: '',
     component: InicioPage
   },  {
-    path: 'contacto-contador',
-    loadChildren: () => import('./contacto-contador/contacto-contador.module').then( m => m.ContactoContadorPageModule)
+    path: 'contacto-modal',
+    loadChildren: () => import('./contacto-modal/contacto-modal.module').then( m => m.ContactoModalPageModule)
   }
 
 ];
